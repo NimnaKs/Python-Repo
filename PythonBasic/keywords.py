@@ -24,5 +24,5 @@ These keywords are case-sensitive, so `True` and `true` would be treated differe
 import keyword
 
 keyword_list = keyword.kwlist
-print(keyword_list)
+print(f"Keywords of python is : {keyword_list}")
 
