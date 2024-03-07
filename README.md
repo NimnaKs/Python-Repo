@@ -48,6 +48,23 @@ Camel and Snake case for Variables
 
 Pascal Case for Classes
 
+### DataTypes 
+
+The data type for a variable is the type of data it holds. It defines the values you
+can assign to it, and the operation you can apply on the variable.
+
+In python data type of variable is dynamically change.
+
+#### Core Data Type
+
+Number - int , float , complex
+Sequence - List , Tuple , range
+Map - Dict
+Set - set , frozenset
+Text - Str
+Boolean - bool
+None - NoneType
+Binary type - Byte,ByteArray,MemoryView
 
 
 

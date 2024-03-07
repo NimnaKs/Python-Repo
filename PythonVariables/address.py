@@ -1,3 +1,5 @@
+import math
+
 a = 5
 print(f"a : {a}")
 print(f"Address of a : {id(a)}")
