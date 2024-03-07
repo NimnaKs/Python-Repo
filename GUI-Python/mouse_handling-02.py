@@ -3,6 +3,7 @@ import tkinter as tk
 window = tk.Tk()
 lbl = tk.Label(window, text="Click Me", bg="white", fg="navy")
 
+
 def event_handler(event):
     if event.type == "7":
         lbl.config(bg="navy", fg="white")
