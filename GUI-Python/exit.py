@@ -40,11 +40,12 @@ txtField.place(x=20, y=40)
 def process_entry_data():
     data = txtField.get()
     mbox.showinfo(title="Alert", message=f"Your name is {data}")
-
+    txtField.delete(0,tk.END)
 
 process_btn = tk.Button(text="Process", command=process_entry_data)
 process_btn.pack()
-process_btn.place(x=80,y=80)
+process_btn.place(x=80, y=80)
+
 
 def window_exit():
     close = mbox.askyesno(
@@ -54,6 +55,7 @@ def window_exit():
     if close:
         window.destroy()
 
-window.protocol("WM_DELETE_WINDOW",window_exit)
+
+window.protocol("WM_DELETE_WINDOW", window_exit)
 
 window.mainloop()
