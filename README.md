@@ -70,17 +70,39 @@ Binary type - Byte,ByteArray,MemoryView
 
 There are 5 standard data types.
 
-Numeric - Integer , Complex , Float
-Boolean 
-Set - Frozen Set , Set - Collection of unordered items where each item unique in set.
-A set is mutable in nature.
-Dictionary - Collection of unordered data items where each consist of key value pairs.
-Sequence - String , Range , List , Tuple - Ordered collection of similar or different types of data.
-The data inside the sequence standard or user defined type.
+1 . Numeric - Integer , Complex , Float
 
-String - A string is a sequence of UNICODE characters.
-List - Sequence of values seperated by comma.
-Tuple - Similar to List, but it is immutable in nature.
+2 . Mapping Type - Dictionary: Represents a collection of key-value pairs enclosed
+in curly braces ({}) with unique keys.
+
+3 . Set Type - Set: Represents an unordered and mutable collection of unique
+elements, enclosed in curly braces ({}) or using the set() function.
+
+4 . Boolean Data Type(bool): Represents either True or False, used for logical
+operations and conditions.
+
+5 . None: The NoneType object is a special type in Python that represents the
+absence of a value.We can assign None to any variable, but you can not create
+other NoneType objects. Note: All variables that are assigned None point to the
+same object.
+
+6 . Sequence Type  - String , List , Tuple , Range
+A sequence is an ordered collection of similar or different types of
+data.
+
+String Data Type(str): Represents a sequence of characters enclosed in single
+quotes (‘ ‘) or double quotes (” “), such as “Hello, World!”, ‘Python’.
+
+List: Represents an ordered and mutable collection of items, enclosed in square
+brackets ([]).
+
+Tuple: Represents an ordered and immutable collection of items, enclosed in
+parentheses ().
+
+Range: A sequence of numbers, starting from 0 by default, and increments by 1
+(by default), and stops before a specified number
+
+
 
 
 

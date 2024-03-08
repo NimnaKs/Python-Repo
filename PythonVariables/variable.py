@@ -41,3 +41,4 @@ var_memoryview = memoryview(bytes(5))
 print(f"var_bytes : {var_bytes} : {type(var_bytes)}\n"
       f"var_bytearray : {var_bytearray} : {type(var_bytearray)}\n"
       f"var_memoryview : {var_memoryview} : {type(var_memoryview)}\n")
+
