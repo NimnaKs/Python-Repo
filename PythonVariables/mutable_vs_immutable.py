@@ -4,9 +4,9 @@ Mutable and Immutable objects. Whenever an object is instantiated, it is assigne
 the object is defined at the runtime and it can’t be changed afterward. However, its state can be changed if it is
 a mutable object.
 
-# Mutable Object - int, float, bool, string, Unicode, and tuple
+# Immutable Object - int, float, bool, string, Unicode, and tuple
 
-# Immutable object - Mutable Objects are of type Python list, Python dict, or Python set.
+# Mutable object - Mutable Objects are of type Python list, Python dict, or Python set.
 Custom classes are generally mutable.
 
 """
