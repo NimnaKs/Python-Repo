@@ -66,6 +66,22 @@ Boolean - bool
 None - NoneType
 Binary type - Byte,ByteArray,MemoryView
 
+### Standard Data Types 
+
+There are 5 standard data types.
+
+Numeric - Integer , Complex , Float
+Boolean 
+Set - Frozen Set , Set - Collection of unordered items where each item unique in set.
+A set is mutable in nature.
+Dictionary - Collection of unordered data items where each consist of key value pairs.
+Sequence - String , Range , List , Tuple - Ordered collection of similar or different types of data.
+The data inside the sequence standard or user defined type.
+
+String - A string is a sequence of UNICODE characters.
+List - Sequence of values seperated by comma.
+Tuple - Similar to List, but it is immutable in nature.
+
 
 
 
