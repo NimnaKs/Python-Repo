@@ -12,8 +12,6 @@ def click_handler(event):
         print("Right Click")
 
 
-window.bind("<Button-1>", click_handler)
-window.bind("<Button-2>", click_handler)
-window.bind("<Button-2>", click_handler)
+window.bind("<Button>", click_handler)
 
 window.mainloop()
